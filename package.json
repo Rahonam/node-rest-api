@@ -1,0 +1,33 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "APIs to support bus tickets booking",
+  "main": "index.js",
+  "scripts": {
+    "swagger": "node swagger.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "REST",
+    "APIs"
+  ],
+  "author": "rahonam <manoharkumar371@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.36.0",
+    "sqlite3": "^5.1.7",
+    "swagger-ui-express": "^5.0.0",
+    "unique-username-generator": "^1.3.0"
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.23.7"
+  }
+}
